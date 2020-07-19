@@ -1,0 +1,4 @@
+<?php
+$type;
+$usageDescription;
+?>
