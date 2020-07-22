@@ -1,7 +1,7 @@
 <?php
-include_once("classes/appitem.php");
-include_once("classes/newsitem.php");
-include_once("sources/source.php");
+include_once "./classes/appitem.php";
+include_once "./classes/newsitem.php";
+include_once "./sources/source.php";
 
 class unc0ver extends Source {
     private $name = "unc0ver";
