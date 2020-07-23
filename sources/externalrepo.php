@@ -1,6 +1,7 @@
 <?php
 include_once "./sources/source.php";
 include_once "./classes/appitem.php";
+include_once "./classes/newsitem.php";
 
 class ExternalRepo extends Source {
     private $obj = array();
