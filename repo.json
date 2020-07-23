@@ -63,7 +63,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/Chimera\/icon.png?dl=1",
             "tintColor": "#33a597",
             "size": 91350280,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/Chimera\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/Chimera\/image1.png?dl=1",
@@ -111,7 +111,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/GBA4iOS\/icon.png?dl=1",
             "tintColor": "#78209d",
             "size": 7924507,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/GBA4iOS\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/GBA4iOS\/image1.png?dl=1",
@@ -185,7 +185,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/PPSSPP\/icon.png?dl=1",
             "tintColor": "#21486b",
             "size": 18536809,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/PPSSPP\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/PPSSPP\/image1.png?dl=1",
@@ -234,7 +234,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/RetroArch\/icon.png?dl=1",
             "tintColor": "#000000",
             "size": 254223544,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/RetroArch\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/RetroArch\/image1.png?dl=1",
@@ -257,7 +257,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/Play\/icon.png?dl=1",
             "tintColor": "#5f5fff",
             "size": 910607,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [],
             "beta": null
         },
@@ -274,7 +274,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/FlappyBird\/icon.png?dl=1",
             "tintColor": "#49cc48",
             "size": 86329892,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/FlappyBird\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/FlappyBird\/image1.png?dl=1",
@@ -322,7 +322,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/ScummVM\/icon.png?dl=1",
             "tintColor": "#bf6a27",
             "size": 32260772,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/ScummVM\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/ScummVM\/image1.png?dl=1",
@@ -343,7 +343,7 @@
             "iconURL": "https:\/\/dl.orangedox.com\/quarklibrary\/UTM\/icon.png?dl=1",
             "tintColor": "#2044cd",
             "size": 130602898,
-            "permissions": null,
+            "permissions": [],
             "screenshotURLs": [
                 "https:\/\/dl.orangedox.com\/quarklibrary\/UTM\/image0.png?dl=1",
                 "https:\/\/dl.orangedox.com\/quarklibrary\/UTM\/image1.png?dl=1",
