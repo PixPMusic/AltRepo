@@ -18,7 +18,7 @@ $u0 = new unc0ver;
 // $quark = new ExternalRepo("https://quarksources.imfast.io/quarksource.json", array());
 
 MergeRepo::merge_repo($apps, $news, $u0);
-MergeRepo::merge_repo($apps, $news, $quark);
+//MergeRepo::merge_repo($apps, $news, $quark);
 
 $output = new Repo(
     $name,
