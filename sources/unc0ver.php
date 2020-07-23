@@ -2,7 +2,7 @@
 include_once "./sources/source.php";
 
 class unc0ver extends Source {
-    public $name = "unc0ver";
+    private $name = "unc0ver";
     private $bundleIdentifier = "science.xnu.undecimus";
     private $developerName = "unc0ver Team";
     private $localizedDescription = "Jailbreak Tool";
@@ -22,7 +22,7 @@ class unc0ver extends Source {
     private $size;
     private $permissions = array();
     private $screenshotURLs;
-    public $beta = false;
+    private $beta = false;
     public function __construct() {
         $opts = [
             'http' => [

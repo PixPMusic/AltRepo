@@ -6,6 +6,7 @@ include_once "./classes/app/permission.php";
 include_once "./sources/unc0ver.php";
 include_once "./classes/mergerepo.php";
 include_once "./sources/externalrepo.php";
+include_once "./sources/ppsspp.php";
 
 $name = "Pixel's Repo";
 $identifier = "cc.pixp.repo";
@@ -14,11 +15,10 @@ $apps = array();
 $news = array();
 
 $u0 = new unc0ver;
-
-// $quark = new ExternalRepo("https://quarksources.imfast.io/quarksource.json", array());
-
 MergeRepo::merge_repo($apps, $news, $u0);
-//MergeRepo::merge_repo($apps, $news, $quark);
+
+$ppsspp = new PPSSPP;
+MergeRepo::merge_repo($apps, $news, $ppsspp);
 
 $output = new Repo(
     $name,
