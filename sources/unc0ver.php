@@ -1,10 +1,8 @@
 <?php
-include_once "./classes/appitem.php";
-include_once "./classes/newsitem.php";
 include_once "./sources/source.php";
 
 class unc0ver extends Source {
-    private $name = "unc0ver";
+    public $name = "unc0ver";
     private $bundleIdentifier = "science.xnu.undecimus";
     private $developerName = "unc0ver Team";
     private $localizedDescription = "Jailbreak Tool";
@@ -24,7 +22,7 @@ class unc0ver extends Source {
     private $size;
     private $permissions = array();
     private $screenshotURLs;
-    private $beta = false;
+    public $beta = false;
     public function __construct() {
         $opts = [
             'http' => [

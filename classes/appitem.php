@@ -1,6 +1,6 @@
 <?php
 class AppItem {
-    private $name;
+    public $name;
     private $bundleIdentifier;
     private $developerName;
     private $subtitle;
@@ -14,7 +14,7 @@ class AppItem {
     private $size;
     private $permissions;
     private $screenshotURLs;
-    private $beta;
+    public $beta;
 
     private $appItem=array();
 
