@@ -1,5 +1,7 @@
 <?php
 class Source {
+    private $definites;
+
     public function getApps(): array {
         return $appItems;
     }

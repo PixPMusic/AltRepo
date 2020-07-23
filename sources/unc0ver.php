@@ -12,6 +12,9 @@ class unc0ver extends Source {
     private $iconURL = "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png";
     private $webURL = "https://unc0ver.dev/";
     private $doNotify = true;
+    private $definites = array(
+        "science.xnu.undecimus"
+    );
 
     private $subtitle;
     private $version;
