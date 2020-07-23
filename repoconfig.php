@@ -9,7 +9,7 @@ include_once "./sources/externalrepo.php";
 
 $name = "Pixel's Repo";
 $identifier = "cc.pixp.repo";
-$sourceURL = "https://repo.potatotoast.com/render.php";
+$sourceURL = "https://repo.potatotoast.com/repo.json";
 $apps = array();
 $news = array();
 

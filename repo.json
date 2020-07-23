@@ -1,7 +1,7 @@
 {
     "name": "Pixel's Repo",
     "identifier": "cc.pixp.repo",
-    "sourceURL": "https:\/\/repo.potatotoast.com\/render.php",
+    "sourceURL": "https:\/\/repo.potatotoast.com\/repo.json",
     "apps": [
         {
             "name": "unc0ver",
