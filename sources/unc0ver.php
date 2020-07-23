@@ -42,7 +42,7 @@ class unc0ver extends Source {
         $this->versionDescription = $obj[0]->{"body"};
         $this->downloadURL = $obj[0]->{"assets"}[0]->{"browser_download_url"};
         $this->size = $obj[0]->{"assets"}[0]->{"size"};
-        $this->permissions = null;
+        $this->permissions = array();
         $this->screenshotURLs = array(
             "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-1.PNG",
             "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-2.PNG",
