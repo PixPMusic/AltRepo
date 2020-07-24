@@ -20,6 +20,16 @@ MergeRepo::merge_repo($apps, $news, $u0);
 $ppsspp = new PPSSPP;
 MergeRepo::merge_repo($apps, $news, $ppsspp);
 
+$ish = new ExternalRepo("https://ish.app/altstore.json", array(
+    "app.ish.iSH"
+));
+MergeRepo::merge_repo($apps, $news, $ish);
+
+$quark = new ExternalRepo("https://quarksources.imfast.io/quarksource.json", array());
+MergeRepo::merge_repo($apps, $news, $quark);
+
+$quarkpp = new ExternalRepo("https://quarksources.imfast.io/quarksource++.json", array());
+
 $output = new Repo(
     $name,
     $identifier,
