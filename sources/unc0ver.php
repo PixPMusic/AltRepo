@@ -41,7 +41,7 @@ class unc0ver extends Source {
         $this->versionDate = "2020-07-23";
         $this->versionDescription = "Fix support for removing leftover files from RootLessJB";
         $this->downloadURL = "https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa";
-        $this->size = "43024790";
+        $this->size = 43024790;
         //$this->subtitle = $obj[0]->{"name"};
         //$this->version = substr($obj[0]->{"tag_name"}, 1);
 	//$this->versionDate = substr($obj[0]->{"published_at"}, 0, 10);
