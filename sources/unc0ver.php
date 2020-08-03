@@ -36,12 +36,18 @@ class unc0ver extends Source {
         $apiurl = "https://api.github.com/repos/pwn20wndstuff/Undecimus/releases";
         $json = file_get_contents($apiurl, false, $context);
         $obj = json_decode($json);
-        $this->subtitle = $obj[0]->{"name"};
-        $this->version = substr($obj[0]->{"tag_name"}, 1);
-        $this->versionDate = substr($obj[0]->{"published_at"}, 0, 10);
-        $this->versionDescription = $obj[0]->{"body"};
-        $this->downloadURL = $obj[0]->{"assets"}[0]->{"browser_download_url"};
-        $this->size = $obj[0]->{"assets"}[0]->{"size"};
+        $this->subtitle = "v5.3.1 release";
+        $this->version = "5.3.1";
+        $this->versionDate = "2020-07-23";
+        $this->versionDescription = "Fix support for removing leftover files from RootLessJB";
+        $this->downloadURL = "https://unc0ver.dev/downloads/5.3.1/72004596b31ba3eae886ac6cc781725879d3b7a4/unc0ver_5.3.1.ipa";
+        $this->size = "43024790";
+        //$this->subtitle = $obj[0]->{"name"};
+        //$this->version = substr($obj[0]->{"tag_name"}, 1);
+	//$this->versionDate = substr($obj[0]->{"published_at"}, 0, 10);
+        //$this->versionDescription = $obj[0]->{"body"};
+        //$this->downloadURL = $obj[0]->{"assets"}[0]->{"browser_download_url"};
+        //$this->size = $obj[0]->{"assets"}[0]->{"size"};
         $this->permissions = array();
         $this->screenshotURLs = array(
             "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-1.PNG",
@@ -49,6 +55,8 @@ class unc0ver extends Source {
             "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Resources/Screenshot-3.PNG"
         );
         $this->beta = $obj[0]->{"prerelease"};
+
+
     }
 
     public function getApps(): array {
