@@ -38,6 +38,7 @@ class MergeRepo {
             $incore = false;
             $isdef = false;
             $islatest = false;
+            $inApps = false;
             $pop;
             if (sizeof($corenews)) {
                 foreach($corenews as $n => $core) {
@@ -57,11 +58,19 @@ class MergeRepo {
                         }
                     }
                 }
-                if ($incore && $isdef && $islatest) {
-                    unset($corenews[$pop]);
-                    array_push($corewnews, $news);
-                } if (!$incore) {
-                    array_push($corenews, $news);
+
+                foreach($coreapps as $n => $core) {
+                    if($core["bundleIdentifier"] == $news["appID"]) {
+                        $inApps = true;
+                    }
+                }
+                if ($inApps) {
+                    if ($incore && $isdef && $islatest) {
+                        unset($corenews[$pop]);
+                        array_push($corewnews, $news);
+                    } else if (!$incore) {
+                        array_push($corenews, $news);
+                    }
                 }
             } else {
                 array_push($corenews, $news);
