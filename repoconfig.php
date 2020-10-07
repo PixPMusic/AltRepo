@@ -30,6 +30,9 @@ $ish = new ExternalRepo("https://ish.app/altstore.json", array(
 ));
 MergeRepo::merge_repo($apps, $news, $ish);
 
+$dolphin = new ExternalRepo("https://altstore.oatmealdome.me/", array("me.oatmealdome.dolphinios-njb"));
+MergeRepo::merge_repo($apps, $news, $dolphin);
+
 $quark = new ExternalRepo("https://quarksources.imfast.io/quarksource.json", array());
 MergeRepo::merge_repo($apps, $news, $quark);
 
