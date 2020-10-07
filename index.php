@@ -21,11 +21,11 @@
     ></script>
     <title>Pixel's AltStore Repository</title>
 </head>
-<body>
+<body style="background-color: #009688">
     <!--Main Navigation-->
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="-webkit-box-shadow: none!important; box-shadow: none!important">
             <div class="container">
                 <!-- Navbar brand -->
                 <a class="navbar-brand" href="#">Pixel's AltStore Repo</a>
@@ -49,10 +49,8 @@
                             <!-- Description -->
                             <h4 class="white-text my-4">Open source, even.</h4>
                             <button type="button" class="btn btn-outline-white" onclick="window.location.href='https://github.com/PixPMusic/AltRepo'">Github<i class="fa fa-book ml-2"></i></button>
-                            <button type="button" class="btn btn-outline-white" onclick="window.location.href='altstore://repo?url=https://repo.pixp.cc/repo.json'">Add to AltStore<i class="fa fa-book ml-2"></i></button>
-
-                            <!-- Divider -->
-                            <hr class="hr-light">
+                            <button type="button" class="btn btn-outline-white" onclick="window.location.href='altstore://source?url=https://repo.pixp.cc/repo.json'">Add to AltStore<i class="fa fa-book ml-2"></i></button>
+                            <br /><br />
                             <p>This is a Proof-of-concept repository with the ability to merge several dynamic sources.</p>
                             <p>It can act as a bridge between places like Github, or it can process other AltStore repositories, removing duplicates and ensuring the most valid source is used where possible</p>
                             <p>It is designed to offer the fastest updates from the fastest source available within the backend repository subset.</p>
