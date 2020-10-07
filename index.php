@@ -22,16 +22,24 @@
     <title>Pixel's AltStore Repository</title>
 </head>
 <body style="background-color: #009688">
-    <!--Main Navigation-->
     <header>
-        <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="-webkit-box-shadow: none!important; box-shadow: none!important">
             <div class="container">
-                <!-- Navbar brand -->
                 <a class="navbar-brand" href="#">Pixel's AltStore Repo</a>
             </div>
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link" onclick="window.alert('PixelPerfect#0001');"><i class="fab fa-discord"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/realpixp"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://reddit.com/u/ajbiz11"><i class="fab fa-reddit"></i></a>
+                </li>
+            </ul>
         </nav>
-        <!--/.Navbar-->
+        
 
         <!--Mask-->
         <div id="intro" class="view">
