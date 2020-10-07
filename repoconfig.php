@@ -16,6 +16,7 @@ $news = array();
 $odyssey = new ExternalRepo("https://theodyssey.dev/altstore/odysseysource.json", array(
     "org.coolstar.odyssey"
 ));
+MergeRepo::merge_repo($apps, $news, $odyssey);
 
 $u0 = new unc0ver;
 MergeRepo::merge_repo($apps, $news, $u0);
