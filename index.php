@@ -26,8 +26,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="-webkit-box-shadow: none!important; box-shadow: none!important">
             <div class="container">
                 <a class="navbar-brand" href="#">Pixel's AltStore Repo</a>
-            </div>
-            <ul class="navbar-nav nav-flex-icons">
+                <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
                     <a class="nav-link" onclick="window.alert('PixelPerfect#0001');"><i class="fab fa-discord"></i></a>
                 </li>
@@ -38,6 +37,7 @@
                     <a class="nav-link" href="https://reddit.com/u/ajbiz11"><i class="fab fa-reddit"></i></a>
                 </li>
             </ul>
+            </div>
         </nav>
         
 
