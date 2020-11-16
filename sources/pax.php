@@ -9,7 +9,7 @@ class PAX extends Source {
     private $localizedDescription = "Control your PAX Device from iOS";
     private $size = 35797093;
     private $tintColor = "424242";
-    private $iconURL = "https://altrepo.pixp.cc/assets/pax/icon.png";
+    private $iconURL = "https://repo.pixp.cc/assets/pax/icon.png";
     private $webURL = "https://www.pax.com/";
     private $doNotify = false;
     private $beta = false;
@@ -18,9 +18,9 @@ class PAX extends Source {
     private $definites = array("com.paxlabs.paxvapor");
     private $versionDate = "2019-12-31";
     private $versionDescription = "Last AppStore Release";
-    private $downloadURL = "https://altrepo.pixp.cc/assets/pax/pax.ipa";
+    private $downloadURL = "https://repo.pixp.cc/assets/pax/pax.ipa";
     private $screenshotURLs = array(
-        "https://altrepo.pixp.cc/assets/pax/screenshot.jpg"
+        "https://repo.pixp.cc/assets/pax/screenshot.jpg"
     );
 
     public function getApps(): array {
