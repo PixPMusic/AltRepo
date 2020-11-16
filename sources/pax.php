@@ -20,7 +20,7 @@ class PAX extends Source {
     private $versionDescription = "Last AppStore Release";
     private $downloadURL = "https://repo.pixp.cc/assets/pax/pax.ipa";
     private $screenshotURLs = array(
-        "https://repo.pixp.cc/assets/pax/screenshot.jpg"
+        "https://repo.pixp.cc/assets/pax/screenshot.jpeg"
     );
 
     public function getApps(): array {
