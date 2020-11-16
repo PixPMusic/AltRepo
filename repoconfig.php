@@ -7,12 +7,16 @@ include_once "./sources/unc0ver.php";
 include_once "./classes/mergerepo.php";
 include_once "./sources/externalrepo.php";
 include_once "./sources/odyssey.php";
+include_once "./sources/pax.php";
 
 $name = "Pixel's Repo";
 $identifier = "io.altstore.example";
 $sourceURL = "https://repo.pixp.cc/repo.json";
 $apps = array();
 $news = array();
+
+$pax = new PAX();
+MergeRepo::merge_repo($apps, $news, $pax);
 
 $odyssey = new Odyssey;
 MergeRepo::merge_repo($apps, $news, $odyssey);
